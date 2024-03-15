@@ -56,7 +56,12 @@ public class JavaBasicsClass {
 
         System.out.println("The sum of <int> and <double> variables equals: " + sum2);
         System.out.println("Type sum of <int> and <double>: is double");
-        //System.out.println("Type sum of <int> and <double>: " + sum2.isInstance());
+
+//        System.out.println("Type sum of <int> and <double>: " + sum2.isInstance());
+        System.out.println("Type sum of <int> and <double>: " + sum2.getClass().getName());
+
+
+
 
         /* 4. Write a program that declares two integer variables,
             assigns an integer to each, and divides the larger number
@@ -73,11 +78,10 @@ public class JavaBasicsClass {
         int div = larger / smaller;
 
         double larger1 = 25.0;
-        int smaller1  = 3;
 
        // int div1 = larger1 / smaller;
 
-        double div2 = larger1 / smaller1;
+        double div2 = larger1 / smaller;
 
         System.out.println("The devision of 2 <int> variables equals: " + div);
         System.out.println("The <int> result of devision <double> on <int> variables equals Error: \"incompatible types: possible lossy conversion from double to int\"");
@@ -110,7 +114,7 @@ public class JavaBasicsClass {
         System.out.println("#6: ");
 
         int x = 5;
-        int y = 16;
+        int y = 6;
 
         int q = y / x;
 
