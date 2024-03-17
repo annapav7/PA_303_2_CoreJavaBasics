@@ -5,7 +5,6 @@ Author: Pavlenko Anna
 Date: March_15_2024
  */
 
-
 public class JavaBasicsClass {
     public static void main(String[] args) {
 
@@ -58,10 +57,7 @@ public class JavaBasicsClass {
         System.out.println("Type sum of <int> and <double>: is double");
 
 //        System.out.println("Type sum of <int> and <double>: " + sum2.isInstance());
-        System.out.println("Type sum of <int> and <double>: " + sum2.getClass().getName());
-
-
-
+//        System.out.println("Type sum of <int> and <double>: " + sum2.getClass().getName());
 
         /* 4. Write a program that declares two integer variables,
             assigns an integer to each, and divides the larger number
@@ -137,7 +133,6 @@ public class JavaBasicsClass {
         System.out.println("The Area of circle equals: " + area + " inch.");
 
 
-
         /* 8. Write a program where you create three variables that
             represent products at a cafe. The products could be beverages
             like coffee, cappuccino, espresso, green tea, etc. Assign prices
@@ -173,11 +168,6 @@ public class JavaBasicsClass {
         double z = Math.round(totalSales*100);
 
         System.out.println("The Total Sales: " + z/100);
-
-
-
-
-
 
     }
 }
