@@ -1,6 +1,8 @@
 package com.perscholas.java_basics;
 
-/* Assignment Name: PA 303.2.1 - Practice Assignment  - Core Java - Variables
+/* 
+Instructor: Raheem Abolfathzadeh
+Assignment Name: PA 303.2.1 - Practice Assignment  - Core Java - Variables
 Author: Pavlenko Anna
 Date: March_15_2024
  */
